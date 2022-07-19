@@ -2,352 +2,280 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* text-align: end; */
 }
 body{
-    background-color: lightgray;
-    display: block;
-}
-.main_page{
-    width: 85%;
-    height: 2200px;
-    margin: auto;
+    width: 80%;
+    height: 120vh;
     border: 1px solid black;
-}
-.line{
-    width: 100%;
-    height: 10px;
-    background-color: darkorange;
-    box-shadow: 5px 0px 0px 0px;
-}
-.name_of_page{
-    width: 100%;
-    height: 160px;
-    background-color: white;
-}
-.logotype{
-    width: 25%;
-    height: 100%;
-    float: left;
-}
-.logotype img{
-    float: right;
-    padding-top: 6px;
-}
-.name{
-    width: 40%;
-    height: 100%;
-     
-    margin-left: 0px;
-    float: right;
-}
-.name h2{
-    color: darkorange;
-    font-family: sans-serif;
-    font-size: 32px;
-    padding: 56px 6px;
-}
-.numbers{
-    width: 35%;
-    height: 100%;
-     
-    float: right;
-    /* background-image: url(/telegram/2.png);
-    background-size: cover;
-    opacity: ; */
-}
-.numbers-1{
-    width: 30%;
-    height: 100%;
-     
-    float: left;
-    margin-top: -160px;
-}
-.numbers-1 img{
-    float: right;
-    padding-top: 50px;
-}
-.numbers-2{
-    width: 70%;
-    height: 100%;
-     
-    float: right;
-    z-index: 0;
-    margin-top: -160px;
-}
-.numbers-2 p{
-    color: darkorange;
-    padding-top: 50px;
-}
-.fire{
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    opacity: 0.5;
-}
-.panel_for_btns{
-    width: 100%;
-    height: 50px;
-    border: 1px solid darkorange;
-    background-color: darkorange;
-}
-.btn-group{
-    width: 80%;
-    height: 100%;
-      
-    background-color: darkorange;
-    margin-left: 100px;
-}
-.btn-group button{
-    background-color: darkorange;
-    border: 1px solid darkorange;
-    color: white;
-    width: 140px;
-    height: 100%;
-    font-size: 16px;
-    margin-left: 8px;
-}
-.btn-group img{
-    float: right;
-    width: 50px;
-    height: 100%;
-    margin-right: 50px;
-}
-.btn-group button:hover{
-    background-color: orange;
-}
-.promise{
-    width: 100%;
-    height: 360px;
-    border: 0px solid black;
-    background-image: url(/telegram/4.png);
-    background-size: cover;
-}
-.promise h1{
-    color: white;
-    padding-top: 120px;
-    padding-left: 640px;
-    font-size: 36px;
-}
-.about_company{
-    width: 100%;
-    height: 250px;
-       
-    background-color: white;
-}
-.text{
-    width: 65%;
-    height: 100%;
-       
-    float: left;
-    color: darkorange;
-}
-.text h2{
-    margin-left: 150px;
-    margin-top: 10px;
-}
-.text p{
-    margin-left: 100px;
-    text-indent: 60px;
-    margin-top: 10px;
-    font-size: 17px;
-}
-.img-1{
-    width: 115px;
-    height: 230px;
-}
-.img-2{
-    width: 216px;
-    height: 180px;
-    margin-top: -35px;
-}
-.text button{
-    width: 100px;
-    height: 40px;
-    background-color: orange;
-    color: white;
-    outline: none;
-    margin-top: 12px;
-    margin-left: 450px;
-}
-.buttons{
-    width: 100.15%;
-    height: 200px;
-    background-color: darkorange;
-    margin-top: 15px;
-    background-size: cover;
-    margin-left: -1px;
-}
-.btn-groups-2{
-    width: 80%;
-    height: 100%;
-    margin-left: 160px;
-    border: 1px solid transparent;
-}
-.btn_1{
-    width: 108px ;
-    height: 108px ;
-    border-radius: 100%;
-    margin-top: 20px;
-    margin-left: 165px;
-}
-.btn_1 img{
-    width: 108px ;
-    height: 108px ;
-    border-radius: 100%;
-}
-.btn_1 p{
-    color: white;
-    font-family: 'Gentium Book Plus', serif;
-    font-size: 16px;
-    margin-left: -6px;
-}
-.btn_2{
-    width: 108px ;
-    height: 108px ;
-    border-radius: 100%;
-    margin-left: 64px;
-}
-.btn_2 img{
-    width: 108px ;
-    height: 108px ;
-    border-radius: 100%;
-}
-.btn_2 p{
-    color: white;
-    font-family: 'Gentium Book Plus', serif;
-    font-size: 16px;
-}
-.btn_3{
-    width: 108px ;
-    height: 108px ;
-    border-radius: 100%;
-    margin-left: 64px;
-}
-.btn_3 img{
-    width: 108px ;
-    height: 108px ;
-    border-radius: 100%;
-}
-.btn_3 p{
-    color: white;
-    font-family: 'Gentium Book Plus', serif;
-    font-size: 16px;
-    white-space: nowrap;
-    margin-left: -20px;
-}
-.promise_2{
-    width: 100.2%;
-    height: 550px;
-     
-    margin-left: -1px;
-    background-image: url(/telegram/10.png);
-    background-size: cover;
-}
-.family_pickture{
-    width: 65%;
-    height: 100%;
-     
-    float: right;
-    background-image: url(/telegram/11.png);
-    background-size: 100% 100%;
-    margin-top: -370px;
-}
-.promise_2 h1{
-    color: white;
-    font-family: sans-serif;
-    font-size: 30px;
-    padding-top: 300px;
-    padding-left: 16px;
+    margin: auto;
 }
 .contacts{
-    width: 100.2%;
-    height: 500px;
-    border: 1px solid transparent;
-    background-image: url(/telegram/13.png);
-    margin-left: -1px;
-}
-.gradient{
     width: 100%;
-    height: 200px;
-     
-    background-image: url(/telegram/12.png);
-    background-size: cover;
+    height: 6vh;
+    border: 1px solid black;
+    background-color: black;
+    overflow: hidden;
+    text-align: end;
 }
-.contact1{
+.num_email{
     width: 40%;
     height: 100%;
-     
+    border: 1px solid black;
     float: left;
+    padding-bottom: 12px;    
 }
-.subcontact-1-1{
-    width: 25%;
-    height: 100%;
-      
-    float: left;
-}
-.subcontact-1-1 img{
-    float: right;
-    padding-top: 30px;
-}
-.subcontact-1-2{
-    width: 75%;
-    height: 100%;
-      
-    float: right;
-}
-.subcontact-1-2 h4{
-    padding: 30px 10px;
+.email-link{
     color: white;
+    text-decoration: none;
+    font-size: 2.5vh;
 }
-.contact2{
-    width: 30%;
-    height: 100%;
-     
-    float: right;
+.email_icon{
+    height: 80%;
+    margin-top: 1vh;
 }
-.subcontact-2-1{
-    width: 16%;
-    height: 100%;
-      
-    float: left;
-}
-.subcontact-2-1 img{
-    float: right;
-    padding-top: 30px;
-}
-.subcontact-2-2{
-    width: 84%;
-    height: 100%;
-      
-    float: right;
-}
-.subcontact-2-2 h4{
+.phone-link{
     color: white;
-    padding: 30px 10px;
+    text-decoration: none;
+    font-size: 2.5vh;
 }
-.contact3{
-    width: 30%;
-    height: 100%;
-     
-    float: right;
+.phone_icon{
+    height: 80%;
 }
-.subcontact-3-1{
+.social{
     width: 20%;
     height: 100%;
-      
-    float: left;
-}
-.subcontact-3-1 img{
+    border: 1px solid black;
     float: right;
-    padding-top: 30px;
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
 }
-.subcontact-3-2{
-    width: 80%;
+.social_icons{
+    padding-top: 0.8vh;
+    height: 80%;   
+}
+.Navigation{
+    width: 100%;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+}
+.logo{
+    width: 25%;
     height: 100%;
-      
-    float: right;
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
-.subcontact-3-2 h4{
+.student_icon{
+    height: 90%;
+}
+.logo p{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: rgb(59, 212, 59);
+    font-weight: 600;
+}
+.display_buttons{
+    width: 55%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.display_buttons a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4vh 1px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    /* text-decoration: none;
+    font-size: 3vh;
+    display: block;
+    height: 100%; */
+}
+.display_buttons a:hover{
+    background-color: rgb(113, 207, 113);
     color: white;
-    padding: 30px 10px;
+}
+.Sign_up{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sign_up a{
+   display: block;
+   width: 55%;
+   height: 50%;
+   border: none;
+   text-decoration: none;
+   padding-top: 0.8vh;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 16px;
+   text-align: center;
+   background-color: rgb(113, 207, 113);
+   color: white;
+   border-radius: 3px 3px 3px 3px;
+}
+.Sign_up a:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+    height: 90%;
+    border: 1px solid black;
+    background-image: url(./1000_F_189824144_G3WJ4e273VitGsHvIiObf21F4ONfy9p5.jpg);
+    /* background-position: center; */
+    background-size: 100% 92%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.text{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.4);
+    margin-left: 10%;
+    z-index: 0;
+    box-shadow: 0px 0px 500px 1px white;
+    border: 1px solid none;
+    padding: 8% 0px;
+}
+.text span{
+    padding-top: 30%;
+    opacity: 1;
+    z-index: 1;
+}
+.text span h2{
+    font-size: 36px;
+    font-family: sans-serif;
+}
+.text span p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 4vh;
+}
+.text span a{
+    display: block;
+    width: 30%;
+    height: 14%;
+    border: none;
+    text-decoration: none;
+    padding-top: 2.6vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(113, 207, 113);
+    color: white;
+    border-radius: 3px 3px 3px 3px;
+}
+.text span a:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.key_cards{
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+}
+.key_cards span{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 4%;
+    display: block;
+    block-size: 60% 20%;
+}
+.key_cards span p{
+    padding-top: 1vh;
+    line-height: 4vh;
+}
+.key_cards span h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+.cards{
+    width: 90%;
+    height: 55%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.card{
+    width: 22%;
+    height: 88%;
+    border: 1px solid black;
+    z-index: 0;
+    background-color: rgb(113, 207, 113);
+    transition: 0.3s;
+    border-radius: 5px 5px 5px 5px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card_icon{
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: -4vh;
+    z-index: 0;
+    background: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_icon img{
+    height: 50%;
+}
+.cand span h3{
+    color: white;
+}
+.cources_pfotos{
+    width: 100%;
+    height: 88vh;
+    border: 1px solid black;
+}
+.photos{
+    width: 90%;
+    height: 64%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.photo{
+    width: 32%;
+    height: 100%;
+    border: 1px solid black;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.confirms{
+    width: 100%;
+    height: 8vh;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
