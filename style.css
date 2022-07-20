@@ -3,61 +3,118 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*Fisrt page*/
 body{
-    background-image: url(/images_for_work/NewYork.jpg);
+    overflow: hidden;
+    background-image: url(./beautiful-d-landscape-road-clouds-abstract-nature-backdrop-illustration-banner-concept-background-175933514.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+.background_image{
+    width: 20%;
+    height: 28vh;
+    /* border: 1px solid black; */
+    top: 60vh;
+    animation-name: car_move;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    position: relative;
+    animation-timing-function: linear;
+}
+.background_image img{
+    width: 100%;
+    height: 100%;
+    /* animation-name: car_move;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    position: relative; */
+}
+@keyframes car_move {
+    0%{left: 0%}
+    16%{left: 10%;}
+    32%{left: 20%}
+    48%{left: 30%;}
+    64%{left: 40%;}
+    80%{left: 40%;}
+    100%{left: 40%;}  
+}
+.traffic_light{
+    width: 4%;
+    height: 60vh;
+    border: 1px solid black;
+    position: relative;
+    left: 60%;
+    top: -11vh;
+}
+.body_light{
+    width: 100%;
+    height: 40%;
+    border: 1px solid black;
     display: flex;
+    background-color: #333;
 }
-.form{
-    width: 450px;
-    height: 360px;
-    border: 1px solid rgba(0, 0, 0, 0.493);
-    background-color: rgba(0, 0, 0, 0.486);
+.body_light li{
+    width: 360%;
+    height: 31%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.color_green{
+    background-color: lime;
+    animation-name: green_light;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+.color_green_2{
+     /* second animation */
+     animation-name: second_green_light;
+     animation-delay: 6s;
+     animation-duration: 1s;
+     animation-fill-mode: backwards;
+}
+.color_red{
+    background-color: darkred;
+    animation-name: red_light;
+    animation-delay: 2s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+.color_yellow{
+    background-color: darkgoldenrod;
+    animation-name: yellow_light;
+    animation-delay: 6s;
+    animation-duration: 1s;
+}
+@keyframes green_light {
+    0%{background-color: lime;}
+    50%{background-color: darkgreen;}
+    100%{background-color: darkgreen;}
+}
+@keyframes red_light {
+    0%{background-color: darkred;}
+    50%{background-color: red;}
+    100%{background-color: darkred;}
+}
+@keyframes yellow_light {
+    0%{background-color: darkgoldenrod;}
+    50%{background-color: yellow;}
+    100%{background-color: darkgoldenrod;}
+}
+.mid_pillar{
+    width: 30%;
+    height: 54%;
+    border: 1px solid black;
     margin: auto;
-    margin-top: 100px;
-    border-radius: 10px 10px 10px 10px;
+    background-color: #333;
 }
-.text-1{
-    color: white;
-    font-family: sans-serif;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 30px;
+.bottom_pillar{
+    width: 100%;
+    height: 6%;
+    border: 1px solid black;
+    background-color: #333;
 }
-.inf-1{
-    width: 360px;
-    height: 40px;
-    margin-left: 45px;
-    margin-top: 20px;
-    border-radius: 5px 5px 5px 5px;
+@keyframes second_green_light{
+    from{background-color: darkgreen;}
+    to{background-color: lime;}
 }
-.inf-2{
-    width: 360px;
-    height: 40px;
-    margin-left: 45px;
-    margin-top: 20px;
-    border-radius: 5px 5px 5px 5px;
-}
-.inf-3{
-    width: 360px;
-    height: 40px;
-    margin-left: 45px;
-    margin-top: 20px;
-    border-radius: 5px 5px 5px 5px;
-}
-.b1{
-    width: 360px;
-    height: 50px;
-    margin-left: 45px;
-    margin-top: 20px;
-    border-radius: 5px 5px 5px 5px;
-    color: white;
-    background-color: dodgerblue;
-}
-.b1 a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    
-}
-/*First page*/
